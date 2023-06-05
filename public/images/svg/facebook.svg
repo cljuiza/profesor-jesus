@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="27px" viewBox="0 0 13 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>sm_fb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Header-desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sm_fb" transform="translate(-19.000000, -12.000000)">
+            <path d="M25.5,51.084 C39.307,51.084 50.5,39.668 50.5,25.584 C50.5,11.502 39.307,0.084 25.5,0.084 C11.694,0.084 0.5,11.502 0.5,25.584 C0.5,39.668 11.694,51.084 25.5,51.084" id="Shape"></path>
+            <path d="M19.47,21.266 L22.053,21.266 L22.053,18.704 C22.053,17.574 22.081,15.831 22.887,14.753 C23.733,13.61 24.897,12.833 26.898,12.833 C30.158,12.833 31.533,13.308 31.533,13.308 L30.886,17.213 C30.886,17.213 29.808,16.895 28.804,16.895 C27.799,16.895 26.898,17.263 26.898,18.288 L26.898,21.266 L31.02,21.266 L30.733,25.08 L26.898,25.08 L26.898,38.334 L22.053,38.334 L22.053,25.08 L19.47,25.08 L19.47,21.266 Z" id="Shape" fill="#224199" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
