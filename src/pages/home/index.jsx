@@ -15,7 +15,7 @@ const Home =()=>{
                     <div className="pt-0 w-1/2 flex flex-col items-center self-center">
                         <AnimatedText text="Hola soy Jul Antonioni !" className="!text-6x1 !text-left"/>
                         <br/>
-                        <p className="my-4 text-base text-6x1 text-lg">Seré tu profesora de español , conmigo hablarás español de manera eficaz, fluída,   y con confianza.</p>
+                        <p className="my-4 text-base text-6x1 text-lg">Seré tu profesora de español, conmigo hablarás español de manera eficaz, fluída,   y con confianza.</p>
                     </div>
                 </div>  
             </Layaut>

@@ -25,7 +25,7 @@ const Navbar = () => {
             </nav>
         
             <nav className="flex items-center justify-center flex-wrap">
-                <motion.a href="/" target="_blank" whileHover={{y: -3}} whileTap={{scale:0.9}} className="w-6 mr-3"><InstagramIcon/></motion.a>
+                <motion.a href="https://www.instagram.com/learnprospanish/?igshid=MzRlODBiNWFlZA==" target="_blank" whileHover={{y: -3}} whileTap={{scale:0.9}} className="w-6 mr-3"><InstagramIcon/></motion.a>
                 <motion.a href="/" target="_blank" whileHover={{y: -3}} whileTap={{scale:0.9}} className="ml-3 mr-3"><SuperprofIcon/></motion.a>
                 <motion.a href="/" target="_blank" whileHover={{y: -3}} whileTap={{scale:0.9}} className="ml-3 mr-2 "><FacebookIcon/></motion.a>  
                 <motion.a href="/" target="_blank" whileHover={{y: -3}} whileTap={{scale:0.9}} className="w-7 ml-3 mr-3 "><WhatsappIcon/></motion.a>
