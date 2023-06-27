@@ -1,12 +1,12 @@
 import * as React from "react"
-export const InstagramIcon = ({className, ...rest}) => (
+export const InstagramIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="1.5em"
     height="1.5em"
     viewBox="0 0 24 24"
     className={`w-full h-auto${className}`}
-    {...rest }
+    {...rest}
   >
     <linearGradient
       id="a"
@@ -32,14 +32,14 @@ export const InstagramIcon = ({className, ...rest}) => (
   </svg>
 )
 
-export const SuperprofIcon = ({className, ...rest}) => (
+export const SuperprofIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="2em"
     height="2em"
     viewBox="0 0 129 132"
     className={`w-full h-auto${className}`}
-    {...rest }
+    {...rest}
   >
     <g fill="#FF6363">
       <path d="M56.5 11.2c-6.2 2.2-38.7 22.3-40.8 25.3-2.1 2.9-2.2 4-2.2 27.6v24.6l2.6 3.4c1.7 2.2 7.8 6.5 16 11.4 26.7 15.7 28.5 16.3 37.4 12.1 6.3-2.9 31-17.6 34.9-20.7 5.1-4 5.6-6.8 5.6-30.9 0-20.2-.2-22.4-2-26-2.2-4.3-2.6-4.6-24.1-17.4C65.9 9.9 63 8.9 56.5 11.2zm.9 34.5c4.3 2 4.9 3.3 2.7 6.1L58.5 54l-4-2c-4.9-2.5-8.6-2.5-11.6-.1-2.1 1.8-2.2 2.1-.9 3.4.8.9 4.7 2.5 8.7 3.6 10.9 3.2 14.6 8.8 10.8 16.1-2.2 4.2-6.3 6-13.7 6-4.7 0-7.3-.6-10.2-2.3-4.8-2.7-5.1-3.5-2.7-6.7 1.9-2.4 2-2.4 4-.6 1.1 1 2.5 1.5 3.2 1 .7-.4 1-.3.6.3s.3 1.3 1.6 1.7c4.1 1.1 7.5.6 9.8-1.3 3.5-2.9 1.6-5.2-6.2-7.3-6.4-1.8-12.9-4.7-12.7-5.7.1-.3-.2-1.8-.6-3.4-1.1-3.8 1-8.5 4.8-10.8 4-2.4 13.2-2.5 18-.2zM75 55.6c0 1.4.2 1.4 2.2 0 3.1-2.2 9-2 12 .4 3.7 2.8 5.1 7.2 4.6 13.7-.4 4.8-1 6.1-3.7 8.5-3.6 3.2-9.2 3.8-12.9 1.2L75 77.9V91h-6V54h3c2 0 3 .5 3 1.6z" />
@@ -48,37 +48,37 @@ export const SuperprofIcon = ({className, ...rest}) => (
   </svg>
 )
 
-export const WhatsappIcon = ({className, ...rest}) => (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      xmlSpace="preserve"
-      viewBox="0 0 512 512"
-      width="2em" height="2em" className={`w-full h-auto${className}`}{...rest }
-    >
-      <path
-        d="m0 512 35.31-128C12.359 344.276 0 300.138 0 254.234 0 114.759 114.759 0 255.117 0S512 114.759 512 254.234 395.476 512 255.117 512c-44.138 0-86.51-14.124-124.469-35.31L0 512z"
-        style={{
-          fill: "#ededed",
-        }}
-      />
-      <path
-        d="m137.71 430.786 7.945 4.414c32.662 20.303 70.621 32.662 110.345 32.662 115.641 0 211.862-96.221 211.862-213.628S371.641 44.138 255.117 44.138 44.138 137.71 44.138 254.234c0 40.607 11.476 80.331 32.662 113.876l5.297 7.945-20.303 74.152 75.916-19.421z"
-        style={{
-          fill: "#55cd6c",
-        }}
-      />
-      <path
-        d="m187.145 135.945-16.772-.883c-5.297 0-10.593 1.766-14.124 5.297-7.945 7.062-21.186 20.303-24.717 37.959-6.179 26.483 3.531 58.262 26.483 90.041s67.09 82.979 144.772 105.048c24.717 7.062 44.138 2.648 60.028-7.062 12.359-7.945 20.303-20.303 22.952-33.545l2.648-12.359c.883-3.531-.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-.883-10.593 2.648l-22.069 28.248c-1.766 1.766-4.414 2.648-7.062 1.766-15.007-5.297-65.324-26.483-92.69-79.448-.883-2.648-.883-5.297.883-7.062l21.186-23.834c1.766-2.648 2.648-6.179 1.766-8.828l-25.6-57.379c-.884-2.649-3.532-5.297-7.063-5.297"
-        style={{
-          fill: "#fefefe",
-        }}
-      />
-    </svg>
-  )
+export const WhatsappIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlSpace="preserve"
+    viewBox="0 0 512 512"
+    width="2em" height="2em" className={`w-full h-auto${className}`}{...rest}
+  >
+    <path
+      d="m0 512 35.31-128C12.359 344.276 0 300.138 0 254.234 0 114.759 114.759 0 255.117 0S512 114.759 512 254.234 395.476 512 255.117 512c-44.138 0-86.51-14.124-124.469-35.31L0 512z"
+      style={{
+        fill: "#ededed",
+      }}
+    />
+    <path
+      d="m137.71 430.786 7.945 4.414c32.662 20.303 70.621 32.662 110.345 32.662 115.641 0 211.862-96.221 211.862-213.628S371.641 44.138 255.117 44.138 44.138 137.71 44.138 254.234c0 40.607 11.476 80.331 32.662 113.876l5.297 7.945-20.303 74.152 75.916-19.421z"
+      style={{
+        fill: "#55cd6c",
+      }}
+    />
+    <path
+      d="m187.145 135.945-16.772-.883c-5.297 0-10.593 1.766-14.124 5.297-7.945 7.062-21.186 20.303-24.717 37.959-6.179 26.483 3.531 58.262 26.483 90.041s67.09 82.979 144.772 105.048c24.717 7.062 44.138 2.648 60.028-7.062 12.359-7.945 20.303-20.303 22.952-33.545l2.648-12.359c.883-3.531-.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-.883-10.593 2.648l-22.069 28.248c-1.766 1.766-4.414 2.648-7.062 1.766-15.007-5.297-65.324-26.483-92.69-79.448-.883-2.648-.883-5.297.883-7.062l21.186-23.834c1.766-2.648 2.648-6.179 1.766-8.828l-25.6-57.379c-.884-2.649-3.532-5.297-7.063-5.297"
+      style={{
+        fill: "#fefefe",
+      }}
+    />
+  </svg>
+)
 
-export const FacebookIcon = ({className, ...rest}) => (
-  <svg xmlns="http://www.w3.org/2000/svg"  width="1.5em"
-  height="1.6em" className={`w-full h-auto${className}`} {...rest }>
+export const FacebookIcon = ({ className, ...rest }) => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="1.5em"
+    height="1.6em" className={`w-full h-auto${className}`} {...rest}>
     <g fill="none" fillRule="evenodd">
       <path d="M6.5 39.084c13.807 0 25-11.416 25-25.5 0-14.082-11.193-25.5-25-25.5-13.806 0-25 11.418-25 25.5 0 14.084 11.194 25.5 25 25.5" />
       <path
@@ -91,14 +91,34 @@ export const FacebookIcon = ({className, ...rest}) => (
 )
 
 
-export const LogoIcon = ({className, ...rest}) => (
+export const YouTubeIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
     width={334}
     height={96}
     overflow="hidden"
-    className={`w-full h-auto${className}`} {...rest }
+    className={`w-full h-auto${className}`} {...rest}
+  >
+    <text
+      fontFamily="Baskerville,Baskerville_MSFontService,sans-serif"
+      fontSize={26}
+      fontWeight={600}
+      transform="translate(36.23 58)"
+    >
+      {"Prof. Antonioni"}
+    </text>
+  </svg>
+)
+
+export const LogoIcon = ({ className, ...rest }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlSpace="preserve"
+    width={334}
+    height={96}
+    overflow="hidden"
+    className={`w-full h-auto${className}`} {...rest}
   >
     <text
       fontFamily="Baskerville,Baskerville_MSFontService,sans-serif"
