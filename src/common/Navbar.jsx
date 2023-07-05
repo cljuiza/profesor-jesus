@@ -6,21 +6,20 @@ import { motion } from "framer-motion"
 import { HiMenu } from "react-icons/hi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
-const CumstomLink = ({ href, title, className = "", setBasePath }) => {
+const CumstomLink = ({ href, title, className = "" }) => {
     const { pathname } = useLocation()
     return (
-        <Link to={href} className={`${className} relative group hover:text-textNav`} onClick={() => setBasePath(href)}>
+        <Link to={href} className={`${className} relative group hover:text-textNav ${pathname === href && "text-textNav font-semibold"}`} >
             {title}
             <span className={`h-[3px] inline-block w-0 bg-primary absolute left-0 -bottom-2 group-hover:w-full transition-[width] ease duration-300 ${pathname === href ? "w-full" : "w-0"}`}>&nbsp;</span>
         </Link>
     )
 }
 
-const CumstomMobileLink = ({ href, title, className = "", setBasePath, toggle }) => {
+const CumstomMobileLink = ({ href, title, className = "", toggle }) => {
     const { pathname } = useLocation()
     const navigate = useNavigate();
     const handleClick = () => {
-        setBasePath(href)
         navigate(href)
         toggle()
     }
@@ -34,7 +33,6 @@ const CumstomMobileLink = ({ href, title, className = "", setBasePath, toggle })
 
 
 const Navbar = () => {
-    const [basePath, setBasePath] = useState("/");
     const [isOpen, setIsOpen] = useState();
     const handleClick = () => {
         setIsOpen(!isOpen)
@@ -54,10 +52,10 @@ const Navbar = () => {
 
             <div className="w-full flex justify-end items-center lg:hidden  ">
                 <nav className="absolute left-[42%]  translate-x-[-50]">
-                    <CumstomLink href="/" title="Home" className={`mr-4 px-2 ${basePath === "/" && "text-textNav font-semibold"}`} setBasePath={setBasePath} />
-                    <CumstomLink href="/about" title="About" className={`mx-4 px-2 ${basePath === "/about" && "text-textNav font-semibold"}`} setBasePath={setBasePath} />
-                    <CumstomLink href="/course" title="Course" className={`mx-4 px-2 ${basePath === "/course" && "text-textNav font-semibold"}`} setBasePath={setBasePath} />
-                    <CumstomLink href="/contact" title="Contact" className={`ml-4 ${basePath === "/contact" && "text-textNav font-semibold"}`} setBasePath={setBasePath} />
+                    <CumstomLink href="/" title="Home" className={`mr-4 px-2 `} />
+                    <CumstomLink href="/about" title="About" className={`mx-4 px-2 `} />
+                    <CumstomLink href="/course" title="Course" className={`mx-4 px-2 `} />
+                    <CumstomLink href="/contact" title="Contact" className={`ml-4 `} />
                 </nav>
                 <nav className="flex items-center justify-center flex-wrap">
                     <motion.a href="https://www.instagram.com/learnprospanish/?igshid=MzRlODBiNWFlZA==" target="_blank" whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className="w-7 mr-3"><InstagramIcon /></motion.a>
@@ -71,10 +69,10 @@ const Navbar = () => {
             {isOpen ?
                 <div className="min-w-[80vw] flex flex-col justify-between z-30 items-center fixed top-32 left-1/2  -translate-x-1/2 -translate-y-1.5 bg-slate-800/50 rounded-lg backdrop-blur-md py-40 ">
                     <nav className="flex items-center flex-col justify-center text-white ">
-                        <CumstomMobileLink href="/" title="Home" toggle={handleClick} className={`text-3xl my-5 ${basePath === "/" && " font-semibold"}`} setBasePath={setBasePath} />
-                        <CumstomMobileLink href="/about" title="About" toggle={handleClick} className={`text-3xl my-5 ${basePath === "/about" && "font-semibold"}`} setBasePath={setBasePath} />
-                        <CumstomMobileLink href="/course" title="Course" toggle={handleClick} className={`text-3xl my-5 ${basePath === "/course" && " font-semibold"}`} setBasePath={setBasePath} />
-                        <CumstomMobileLink href="/contact" title="Contact" toggle={handleClick} className={`text-3xl mt-5 mb-10 ${basePath === "/contact" && " font-semibold"}`} setBasePath={setBasePath} />
+                        <CumstomMobileLink href="/" title="Home" toggle={handleClick} className={`text-3xl my-5 `} />
+                        <CumstomMobileLink href="/about" title="About" toggle={handleClick} className={`text-3xl my-5 `} />
+                        <CumstomMobileLink href="/course" title="Course" toggle={handleClick} className={`text-3xl my-5 `} />
+                        <CumstomMobileLink href="/contact" title="Contact" toggle={handleClick} className={`text-3xl mt-5 mb-10`} />
                     </nav>
                     <nav className="flex items-center justify-center flex-wrap">
                         <motion.a href="https://www.instagram.com/learnprospanish/?igshid=MzRlODBiNWFlZA==" target="_blank" whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className="w-7 mr-3"><InstagramIcon /></motion.a>
