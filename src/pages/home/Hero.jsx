@@ -12,17 +12,17 @@ const Hero = () => {
     return (
         <>
             <main className="flex items-center text-dark w-full">
-                <Layaut className="m-15 pt-20">
+                <Layaut className="m-15 pt-20 xl:pt-10 lg:pt-5">
                     <div className="flex items-center justify-around w-full xl:flex-col">
-                        <div className=" w-1/3 lg:w-auto xl:px-3">
-                            <img src="/images/teacher2.png" alt="teacher" className="w-50 h-auto" loading="lazy" />
+                        <div className=" w-1/3 lg:w-auto xl:px-3 lg:pt-0">
+                            <img src="/images/teacher2.png" alt="teacher" className="w-50 h-auto lg:w-64" loading="lazy" />
                         </div>
                         <div className="w-1/2 xl:w-auto flex flex-col items-center self-center">
-                            <AnimatedText text="Hola, soy Julia Antonioni !" className="!text-8xl !text-left sm:!text-3xl sm:mt-5 lg:!text-center" />
+                            <AnimatedText text="Hola, soy Julia Antonioni !" className="!text-8xl !text-left sm:!text-3xl sm:mt-5 xl:!text-center xl:!text-3xl xl:!mt-10" />
                             <br />
                             <p className="my-3 text-xl pr-3 sm:text-md sm:!text-center text-gray-600">Seré tu profesora de español e ingles, conmigo hablarás estos dos idiomas de manera eficaz, fluída y con seguridad.</p>
                             {/* <p className="!text-left text-xl pt-2 pr-3 font-medium">¿ Qué esperas para empezar ?</p> */}
-                            <div className="w-9/12 flex justify-around items-center  md:flex-row xs:flex-col gap-4 mt-6 lg:self-center ">
+                            <div className="min-w-full flex justify-evenly items-center  md:flex-row xs:flex-col gap-4 mt-6 lg:self-center pr-3">
                                 <motion.button onClick={() => navigate("/contact")} whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className=" bg-primary hover:bg-violet-50 text-white hover:text-primary py-2 px-6 rounded-xl text-xl border-2 border-solid border-transparent hover:border-primary">
                                     Contactanos
                                 </motion.button>

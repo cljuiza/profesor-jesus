@@ -42,7 +42,7 @@ const Navbar = () => {
             <div>
                 <Logo />
             </div>
-            <button className="flex-col justify-center items-center hidden lg:flex" onClick={handleClick}>
+            <button className="flex-col justify-center items-center hidden navxl:flex" onClick={handleClick}>
                 {isOpen ?
                     <AiOutlineCloseCircle className="text-red-400" size='35px' />
                     :
@@ -50,7 +50,7 @@ const Navbar = () => {
                 }
             </button>
 
-            <div className="w-full flex justify-end items-center lg:hidden  ">
+            <div className="w-full flex justify-end items-center navxl:hidden  ">
                 <nav className="absolute left-[42%]  translate-x-[-50]">
                     <CumstomLink href="/" title="Home" className={`mr-4 px-2 `} />
                     <CumstomLink href="/about" title="About" className={`mx-4 px-2 `} />
@@ -67,7 +67,7 @@ const Navbar = () => {
             </div>
 
             {isOpen ?
-                <div className="min-w-[80vw] flex flex-col justify-between z-30 items-center fixed top-32 left-1/2  -translate-x-1/2 -translate-y-1.5 bg-slate-800/50 rounded-lg backdrop-blur-md py-40 ">
+                <div className="overflow-y-hidden min-w-[100vw] min-h-screen flex flex-col z-30 items-center fixed top-32 left-1/2  -translate-x-1/2 -translate-y-1.5 bg-slate-800/50 rounded-lg backdrop-blur-md sm:pt-14 lg:pt-36 navxl:pt-20">
                     <nav className="flex items-center flex-col justify-center text-white ">
                         <CumstomMobileLink href="/" title="Home" toggle={handleClick} className={`text-3xl my-5 `} />
                         <CumstomMobileLink href="/about" title="About" toggle={handleClick} className={`text-3xl my-5 `} />

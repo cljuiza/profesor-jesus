@@ -1,21 +1,27 @@
-
+import {
+    FcGlobe, FcCustomerSupport, FcDonate, FcReadingEbook
+} from "react-icons/fc";
 
 export const englishBenefits = [
     {
         title: "Domina el inglés desde tu comodidad",
-        desc: "Nuestro curso online te brinda la flexibilidad de aprender a tu propio ritmo, sin restricciones de tiempo ni lugar."
+        desc: "Nuestro curso online te brinda la flexibilidad de aprender a tu propio ritmo, sin restricciones de tiempo ni lugar.",
+        icon: <FcGlobe size='40px' />
     },
     {
         title: "Aprovecha un aprendizaje personalizado",
-        desc: "Nuestro enfoque individualizado se adapta a tus necesidades y objetivos específicos, asegurando que obtengas el máximo provecho de cada lección."
+        desc: "Nuestro enfoque individualizado se adapta a tus necesidades y objetivos específicos, asegurando que obtengas el máximo provecho de cada lección.",
+        icon: <FcCustomerSupport size='40px' />
     },
     {
         title: "Accede a la calidad a un bajo costo",
-        desc: "Nuestro curso de inglés ofrece una excelente relación calidad-precio, brindándote un aprendizaje de calidad a un precio asequible."
+        desc: "Nuestro curso de inglés ofrece una excelente relación calidad-precio, brindándote un aprendizaje de calidad a un precio asequible.",
+        icon: <FcDonate size='40px' />
     },
     {
         title: "Aprende de forma divertida y eficiente",
-        desc: "Nuestra metodología interactiva y amena te hará disfrutar del proceso de aprendizaje mientras progresas rápidamente."
+        desc: "Nuestra metodología interactiva y amena te hará disfrutar del proceso de aprendizaje mientras progresas rápidamente.",
+        icon: <FcReadingEbook size='40px' />
     }
 ]
 
