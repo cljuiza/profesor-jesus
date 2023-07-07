@@ -120,7 +120,7 @@ export const LogoIcon = ({ className, ...rest }) => (
       fontFamily="Baskerville,Baskerville_MSFontService,sans-serif"
       fontSize={26}
       fontWeight={600}
-      transform="translate(36.23 58)"
+      transform="translate(0 58)"
     >
       {"Prof. Antonioni"}
     </text>

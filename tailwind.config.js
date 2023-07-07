@@ -19,7 +19,6 @@ module.exports = {
     },
     screens: {
       "2xl": { max: "1535px" },
-      "navxl": { max: "1330px" },
       "xl": { max: "1279px" },
       "lg": { max: "1024px" },
       "md": { max: "768px" },
