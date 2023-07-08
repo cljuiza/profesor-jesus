@@ -27,7 +27,7 @@ const Hero = () => {
                                     Contactanos
                                 </motion.button>
                                 <motion.button whileHover={{ y: -3 }} whileTap={{ scale: 0.9 }} className="flex items-center justify-start gap-4 py-2 px-8 rounded-xl text-xl !text-left md:!text-center md:px-1 text-primary hover:text-textNav font-normal">
-                                    <RiPlayFill className="bg-secondary  text-primary p-4 md:p-2 rounded-full box-content" size='15px' />
+                                    <RiPlayFill className="bg-secondary text-primary p-4 md:p-2 rounded-full box-content" size='15px' />
                                     Tu primera <br />clase gratuita
                                 </motion.button>
                             </div>

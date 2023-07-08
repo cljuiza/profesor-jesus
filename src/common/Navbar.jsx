@@ -38,9 +38,9 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <header className="w-full px-32 md:px-10 py-8 h-[150px] xs:h-[120px] xs:pb-5 bg-white font-medium text-lg relative">
+        <header className="w-full px-32 md:px-20 xs:px-10 py-8 h-[150px] xs:h-[120px] xs:pb-5 bg-white font-medium text-lg relative">
             <div className="grid grid-cols-3 xl:grid-cols-4">
-                <div className="xl:col-span-3">
+                <div className="xl:col-span-3 ml-3">
                     <Logo />
                 </div>
                 <button className="items-center justify-end hidden xl:flex" onClick={handleClick}>
