@@ -15,6 +15,9 @@ module.exports = {
         secondary: "#EAEAFC",
         footer: "#2E3E5C",
         textNav: "#5857d9",
+        newViolet: "#f6f6fc",
+        carbon100: "#03060b",
+        carbon90: "#222d3a"
       },
     },
     screens: {

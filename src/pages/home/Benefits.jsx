@@ -6,8 +6,8 @@ import AcordionCard from "../../components/AcordionCard";
 const Benefits = () => {
     return (
         <div className="w-full inline-block">
-            <div className="bg-gray-100 pt-12 pb-12 xl:pb-0 gap-10">
-                <h1 class="text-2xl font-medium text-gray-700 text-center">
+            <div className="bg-newViolet pt-12 pb-12 xl:pb-0 gap-10">
+                <h1 className="text-2xl font-medium text-carbon100 text-center">
                     Beneficios de aprender con nosotros
                 </h1>
                 <Layaut className="pt-14 pb-0 xl:pt-0 xl:pb-10 lg:pt-0 lg:pb-10">

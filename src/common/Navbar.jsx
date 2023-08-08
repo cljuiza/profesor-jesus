@@ -1,6 +1,5 @@
 import React, { useState } from "react"
 import { Link, useLocation, useNavigate } from "react-router-dom"
-import Logo from "../components/Logo"
 import { InstagramIcon, SuperprofIcon, WhatsappIcon, FacebookIcon, YouTubeIcon } from "../components/Icons"
 import { motion } from "framer-motion"
 import { HiMenu } from "react-icons/hi";
@@ -38,10 +37,13 @@ const Navbar = () => {
         setIsOpen(!isOpen)
     }
     return (
-        <header className="w-full px-32 md:px-20 xs:px-10 py-8 h-[150px] xs:h-[120px] xs:pb-5 bg-white font-medium text-lg relative">
+        <header className="w-full px-32 md:px-20 xs:px-10 py-8 h-[150px] xs:h-[120px] xs:pb-5 bg-white font-medium text-lg relative grid align-middle">
             <div className="grid grid-cols-3 xl:grid-cols-4">
-                <div className="xl:col-span-3 ml-3">
-                    <Logo />
+                <div className="xl:col-span-3 ml-3 flex items-center justify-start ">
+                    <Link
+                        href="#"
+                        className="text-2xl font-bold relative text-footer"
+                    > Profes Antonioni</Link>
                 </div>
                 <button className="items-center justify-end hidden xl:flex" onClick={handleClick}>
                     {isOpen ?
