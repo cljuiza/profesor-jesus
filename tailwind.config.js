@@ -9,6 +9,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      // primary: 'Orbitron',
+      // secondary: 'Rajdhani',
+      // tertiary: 'Aldrich',
+    },
     extend: {
       colors: {
         primary: "#706FE5",
@@ -19,6 +24,12 @@ module.exports = {
         carbon100: "#03060b",
         carbon90: "#222d3a"
       },
+      backgroundImage: {
+        //site: "url('./assets/site-bg.jpg')",
+        aboutJesus: "url('/public/images/aboutJesus.png')",
+        aboutJulia: "url('/public/images/aboutJulia.png')",
+        //services: "url('./assets/services.png')",
+      }
     },
     screens: {
       "2xl": { max: "1535px" },
